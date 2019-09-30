@@ -24,8 +24,17 @@
 //      i++;
 //  }
 //  alert(tong);
-do{
-    tong+=i;
-    i++;
-}while(i<=100);
-alert(tong);
+// do{
+//     tong+=i;
+//     i++;
+// }while(i<=100);
+// alert(tong);
+// function tenham()/*đây chỉ là cái hàm*/
+//     alert("hello word");
+// }
+// tenham();
+function Tong(a,b){
+    var tong= (a+b);
+    alert(tong);
+}
+Tong(1,2);
